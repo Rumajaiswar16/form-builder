@@ -39,6 +39,14 @@ Admin functionalities such as form creation, viewing forms, viewing submissions,
 
 ## 7. Screenshots (Optional)
 Screenshots of the admin form creation page, form list, and submission list can be added here.
+### Admin – Create Form
+![Create Form](Images/createform.png)
+
+### Admin – Form List
+![Form List](Images/formslist.png)
+
+### Admin – Submissions
+![Submissions](Images/submission.png)
 
 ## 8. Bonus Features Implemented
 - Fully database-driven form structure
