@@ -1,13 +1,3 @@
-/**
- * Form Builder Application - Combined JavaScript
- * Handles: Form Creation, Form Editing, and Public Form Validation
- *
- * Usage:
- * - admin/create-form.php
- * - admin/edit-form.php
- * - public/form.php
- */
-
 // ============================================================================
 // GLOBAL VARIABLES
 // ============================================================================
@@ -533,3 +523,4 @@ function isValidPhone(phone) {
   const cleaned = phone.replace(/\D/g, "");
   return cleaned.length >= 10;
 }
+
