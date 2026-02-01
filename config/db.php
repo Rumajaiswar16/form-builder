@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'form_builder';
 $username = 'root';
-$password = ''; // XAMPP default password is blank
+$password = ''; 
 // echo "hello connencteed";
 
 try {
@@ -18,3 +18,4 @@ try {
 } catch (PDOException $e) {
     die("Database Connection Failed: " . $e->getMessage());
 }
+
