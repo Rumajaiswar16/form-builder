@@ -25,5 +25,6 @@ INSERT INTO forms (title, description, structure_json) VALUES
 (
     'Contact Form',
     'Please fill out this contact form',
-    '[{"label":"Name","type":"text","required":true},{"label":"Email","type":"text","required":true},{"label":"Age","type":"number","required":false},{"label":"Gender","type":"dropdown","options":["Male","Female","Other"],"required":true},{"label":"Subscribe","type":"checkbox","options":["Yes, I want to subscribe"],"required":false}]'
+    '[{"label":"Name","type":"text","required":true},{"label":"Email","type":"email","required":true},{"label":"Age","type":"number","required":false},{"label":"Gender","type":"dropdown","options":["Male","Female","Other"],"required":true},{"label":"Subscribe","type":"checkbox","options":["Yes, I want to subscribe"],"required":false}]'
+
 );
